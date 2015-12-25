@@ -3,6 +3,7 @@
 
 ## Write a short comment describing this function
 makeCacheMatrix <- function(x = matrix()) {
+  ## COMMENT for the PEER EVALUATION!
   ## this function returns an inverse-cache-able matrix object
   inv_cache <- NULL
   set <- function(y){
@@ -18,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 cacheSolve <- function(x, ...) {
+  #### COMMENT for the PEER EVALUATION!
   ## Return a matrix that is the inverse of 'x'
   inv_cache <- x$getinv()
   if(!is.null(inv_cache)){
